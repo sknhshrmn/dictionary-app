@@ -20,7 +20,7 @@ function SearchInput(props: any) {
 
     if (response.status === 200) {
       const jsonData = await response.json();
-      navigate("/" + word, { state: jsonData });
+      navigate(`/{word}`, { state: jsonData });
       setError(false);
     } else {
       setError(true);
