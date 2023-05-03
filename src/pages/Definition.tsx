@@ -5,7 +5,7 @@ import SearchInput from "../components/SeacrhInput";
 function Definition() {
   const param = useParams();
   const location = useLocation();
-  const dataArray = location.state;
+  const dataArray = location?.state;
 
   return (
     <div className="flex justify-center items-start ">

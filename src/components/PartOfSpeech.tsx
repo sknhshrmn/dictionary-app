@@ -2,8 +2,8 @@ import { useParams } from "react-router";
 import Phonetic from "../components/Phonetic";
 
 function PartOfSpeech(props: any) {
-  const phoneticArray = props.data.phonetics;
-  const definitionArray = props.data.meanings[0].definitions;
+  const phoneticArray = props?.data?.phonetics;
+  const definitionArray = props?.data?.meanings[0]?.definitions;
   console.log(definitionArray);
 
   return (
