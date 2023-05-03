@@ -1,5 +1,3 @@
-import { useParams } from "react-router";
-
 function Phonetic(props: any) {
   function playAudio(audio: string) {
     new Audio(audio).play();

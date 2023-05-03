@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-type DefinitionType = null | any;
 
 function Home() {
   const [word, setWord] = useState("");

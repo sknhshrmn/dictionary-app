@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+// type DefinitionType = null | any;
 
 function SearchInput(props: any) {
   const [word, setWord] = useState("");

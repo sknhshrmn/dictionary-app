@@ -1,5 +1,4 @@
 import { useLocation, useParams } from "react-router-dom";
-import Phonetic from "../components/Phonetic";
 import PartOfSpeech from "../components/PartOfSpeech";
 import SearchInput from "../components/SeacrhInput";
 

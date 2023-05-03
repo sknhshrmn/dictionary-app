@@ -1,6 +1,5 @@
 import { useParams } from "react-router";
 import Phonetic from "../components/Phonetic";
-import Definition from "../pages/Definition";
 
 function PartOfSpeech(props: any) {
   const param = useParams();
