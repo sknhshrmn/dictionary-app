@@ -394,9 +394,9 @@
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
 "@types/react-dom@^18.0.11":
-  version "18.2.2"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.2.tgz#c455edab9fdcea6cba9ed77a10459ea18de76adf"
-  integrity sha512-IGuuCsLmAH0f3KksOZp/vkpUtO2YrIwob4YxvoFQR2XvkLL7tf7mLYcXiyG47KgTKngI4+7lNm4dM4eBTbG1Bw==
+  version "18.2.3"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.3.tgz#2fe492bb0e67047b7b43e18166d8f50d44e0525e"
+  integrity sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==
   dependencies:
     "@types/react" "*"
 
@@ -781,6 +781,16 @@ json5@^2.2.2:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
+left-pad@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/left-pad/-/left-pad-1.1.1.tgz#ca566bbdd84b90cc5969ac1726fda51f9d936a3c"
+  integrity sha512-gzzVNpfkTJpfr3xNbSl9AxW8EBttkTBeIBxECUfSpwvJOCtVXiRHeGCXAvsXAZpXmYR52paNtKxwyq8XynDoRg==
+
+left-pad@^1.1.2:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/left-pad/-/left-pad-1.3.0.tgz#5b8a3a7765dfe001261dde915589e782f8c94d1e"
+  integrity sha512-XI5MPzVNApjAyhQzphX8BkmKsKUxD4LdyK24iZeQGinBN9yTQT3bFlCBy/aVx2HrNcqQGsdot8ghrjyrvMCoEA==
+
 lilconfig@^2.0.5, lilconfig@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.1.0.tgz#78e23ac89ebb7e1bfbf25b18043de756548e7f52"
@@ -1053,9 +1063,9 @@ reusify@^1.0.4:
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
 rollup@^3.21.0:
-  version "3.21.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.21.3.tgz#b3f1920a9d35a9de70f120a1d085753e41997941"
-  integrity sha512-VnPfEG51nIv2xPLnZaekkuN06q9ZbnyDcLkaBdJa/W7UddyhOfMP2yOPziYQfeY7k++fZM8FdQIummFN5y14kA==
+  version "3.21.4"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.21.4.tgz#61af40f1d48d0d04fb20114af73db7367f7151fa"
+  integrity sha512-N5LxpvDolOm9ueiCp4NfB80omMDqb45ShtsQw2+OT3f11uJ197dv703NZvznYHP6RWR85wfxanXurXKG3ux2GQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
