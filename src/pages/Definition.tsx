@@ -13,7 +13,7 @@ function Definition() {
         <SearchInput />
         <div className="bg-gray-50 w-full min-h-[calc(100vh_-_50px)] p-3">
           <div className="text-xl font-semibold">{param.word}</div>
-          {dataArray.map((data: any, index: number) => {
+          {dataArray?.map((data: any, index: number) => {
             return <PartOfSpeech key={index} data={data} />;
           })}
         </div>
